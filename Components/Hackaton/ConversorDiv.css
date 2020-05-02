@@ -1,0 +1,65 @@
+.content-title{
+    text-align: center;
+}
+
+.title{
+    color: grey;
+}
+
+.content-form{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.content-input{
+    width: 49%;
+    float: left;
+}
+
+.content-selections{
+    width: 49%;
+    float: right;
+}
+
+.input-number{
+    height: 30px;
+    margin-top: 17%;
+}
+
+.selection-moneda{
+    height: 40px;
+    width: 210px;
+}
+
+.content-venta{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.content-compra{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.content-button{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+.primary-button {
+	width: 30%;
+	background-color: #61dafb;
+    border-radius: 5px;
+    margin: auto;
+}
+.primary-button a {
+    text-decoration: none;
+}
+
+.text-button {
+	font-size: 14px;
+	color: #212121;
+	font-weight: bold;
+}
