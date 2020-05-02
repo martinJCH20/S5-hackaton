@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export const DatosUsuario = (props) =>{
     
@@ -18,7 +18,7 @@ export const DatosUsuario = (props) =>{
             <div className='input-form'><input value={props.usuario} onChange={props.userChange}/></div>
         </div><br />
         <div className="form-content">
-            <div className="form-img"><img src="https://img.icons8.com/metro/26/000000/forgot-password.png" alt=""/></div>
+            <div className="form-img"><img src="https://img.icons8.com/material-rounded/24/000000/chat.png" alt=""/></div>
             <div className='input-form'><textarea value={props.comentario} onChange={props.comentChange}></textarea></div>
         </div>
         <div>
