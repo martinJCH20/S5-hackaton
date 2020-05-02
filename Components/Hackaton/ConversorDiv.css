@@ -50,16 +50,14 @@
 
 .primary-button {
 	width: 30%;
-	background-color: #61dafb;
+	background-color: #2BACEE;
     border-radius: 5px;
     margin: auto;
-}
-.primary-button a {
-    text-decoration: none;
+    outline:none;
 }
 
 .text-button {
 	font-size: 14px;
-	color: #212121;
+	color: white;
 	font-weight: bold;
 }
