@@ -7,9 +7,6 @@ const monedas = [
     {id: 4, title: 'Euro', simbolo: '€ '}
   ];
 
-
-
-
 export const ConversorDiv = (props) => {
 	return props.visible ? (
 		<div className='content-form'>
