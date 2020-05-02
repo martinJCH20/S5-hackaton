@@ -40,5 +40,9 @@ export const ConversorDiv = (props) => {
                 </button>
             </div>
         </div>
-	) : null;
+	) : 
+    <div className='content-form'>
+        <p className='text-result'>{props.valor}{props.text1}</p>
+        <p className='text-result'>{props.resultado}{props.text2}</p>
+    </div>;
 };
